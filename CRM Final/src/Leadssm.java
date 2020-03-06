@@ -59,12 +59,12 @@ contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 setContentPane(contentPane);
 contentPane.setLayout(null);
 
-JLabel lblImage = new JLabel("Image");
-lblImage.setBounds(5, 0, 109, 63);
-Image img=new ImageIcon(this.getClass().getResource("/24gb.jpg")).getImage();
-contentPane.setLayout(null);
-lblImage.setIcon(new ImageIcon(img));
-contentPane.add(lblImage);
+//JLabel lblImage = new JLabel("Image");
+//lblImage.setBounds(5, 0, 109, 63);
+//Image img=new ImageIcon(this.getClass().getResource("/24gb.jpg")).getImage();
+//contentPane.setLayout(null);
+//lblImage.setIcon(new ImageIcon(img));
+//contentPane.add(lblImage);
 
 JLabel lblCrm = DefaultComponentFactory.getInstance().createTitle("CRM");
 lblCrm.setBounds(217, 15, 40, 14);

@@ -121,7 +121,7 @@ public class AdminHMpage extends JFrame {
 		btnInvoice.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frame.dispose();
-				Invoice.main(new String [] {});
+				Invoicetable.main(new String [] {});
 			}
 		});
 		btnInvoice.setBounds(570, 32, 89, 23);
