@@ -23,7 +23,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class Campaignsm extends JFrame {
-
+//
 	private JPanel contentPane;
 	private JTable table;
 	private JTextField textField;
